@@ -15,7 +15,7 @@ export default class ListComponent extends React.Component {
 							return (
 								<div className='listItem' key={index} onClick={this.clickedItem}>{entry}</div>
 							)
-						});
+						})
 					}
 				</div>
 			);
